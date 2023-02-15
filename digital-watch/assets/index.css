@@ -1,0 +1,34 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 550px;
+}
+
+.watch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 150px;
+}
+
+.digit{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.content{
+    font-size: 12px;
+    margin-top: 20px;
+}
